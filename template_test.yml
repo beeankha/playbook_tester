@@ -1,0 +1,7 @@
+- name: AWX Issue Tester
+  hosts: all
+  tasks:
+    - name: Hello Message
+      template:
+        src: foo.j2
+        dest: foo.txt
